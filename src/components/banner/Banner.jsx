@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import bannerJPG from "../../assets/images/jan-starek-wYqG10rqsXw-unsplash.jpg";
 
 const Banner = () => {
   return (
@@ -13,7 +12,7 @@ const Banner = () => {
 };
 
 const StyledBanner = styled.div`
-  background: url(${bannerJPG}) no-repeat center center;
+  background: url("https://images.unsplash.com/photo-1571397137356-26788be340ba?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
